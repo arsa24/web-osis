@@ -1,8 +1,23 @@
-import Accordion from 'react-bootstrap/Accordion';
+import { Container, Row, Col } from "react-bootstrap";
 
 function HomePage() {
   return (
-    <h1>Home Page</h1>
+    <div>
+      <header className="w-100 min-vh-100">
+        <Container>
+          <Row>
+            <Col></Col>
+          </Row>
+        </Container>
+      </header>
+      <header className="w-100 min-vh-100">
+        <Container>
+          <Row>
+            <Col></Col>
+          </Row>
+        </Container>
+      </header>
+    </div>
   );
 }
 
