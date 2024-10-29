@@ -51,4 +51,17 @@ header {
   background-color: var(--primary-color);
 }
 
+@media screen and (max-width: 992px) {
+  .homepage .header-box {
+    padding-top: 0;
+  }
+
+  /* .homepage .header-box img {
+    width: 400px;
+    display: block;
+    margin-inline: auto;
+  } */
+}
+
+
 /* home page */

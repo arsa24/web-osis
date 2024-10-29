@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import { DaftarNavbar } from "../data/data-web-osis";
-import LogoOsis from "../assets/logo.png";
+import LogoOsis from "../assets/lg-osis.png";
 
 function NavigationBar() {
   const [changeBg, setBg] = useState(false);
